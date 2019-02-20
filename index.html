@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 
     <script src="https://d3js.org/d3.v3.js"></script>
-    <script src="topojson.min.js"></script>
+<!--    <script src="topojson.min.js"></script>-->
     
     <style>
         body{
@@ -247,11 +247,11 @@ var  data = d3.csv("week.csv", function(data){
 //    console.log(fromListAll);
 //    console.log(toListAll);
     console.log(fromToList);
+
     
     
-    
-    
-    
+//    console.log("see");
+//    console.log(document.getElementById("mySelect3").options);
     
     
 //    for(var i=0;i<fromListAll.length; i++){
@@ -261,6 +261,13 @@ var  data = d3.csv("week.csv", function(data){
 //     for(var i=0;i<toListAll.length; i++){
 //    document.getElementById("mySelect2").options.add(new Option(toListAll[i], toListAll[i]));
 //     }
+
+         document.getElementById("mySelect3").length=0;
+
+    
+
+
+//    console.log(document.detElementById("mySelect3").options.length);
     
     
     
@@ -277,6 +284,11 @@ var  data = d3.csv("week.csv", function(data){
 //    var s2 = document.getElementById("mySelect2");
 //    console.log(s2);
 //    var value2 = s2.options[s2.selectedIndex].value; //這是數字
+    
+    
+    
+    
+    
     
     
     var s3 = document.getElementById("mySelect3");
